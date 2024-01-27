@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#Counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#Counter h1{
+    font-size: 40px;
+    margin: 10px;
+    font-weight: bolder;
+    color: #250f5a;
+}
+#Counter h2{
+    font-size: 50px;
+    margin: 20px;
+    font-weight: bolder;
+    color: #474141;
+}
+
+
+@media only screen and (max-width:320px) {
+    #Counter h1{
+        margin: 5px;
+    }
+    #Counter h2{
+        margin: 5px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+.btn #Decrease,#Reset,#Increase{
+    padding: 0.375rem 0.75rem;
+    margin: 0px 5px;
+    border-radius: 30px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.btn #Increase:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #474141;
+    color: #fff;
+    transition: 0.5s;
+
+}
+.btn #Decrease:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #474141;
+    color: #fff;
+    transition: 0.5s;
+
+}
+.btn #Reset:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #474141;
+    color: #fff;    
+    transition: 0.5s;
+
+
+}

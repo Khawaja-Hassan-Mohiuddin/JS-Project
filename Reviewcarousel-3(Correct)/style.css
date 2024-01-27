@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    color: #21010a;
+}
+b{
+    text-decoration: underline;
+    text-decoration-color: #CD32A0;
+    color: #21010a;
+    
+}
+#Container{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px 5px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 7px 6px 20px 2px gray;
+}
+#Container .img{
+    background-image: url(imgs/girl1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#Container .heading .name{
+    font-size: 50px;
+    color: #21010a;
+}
+#Container .heading .profession{
+    font-size: 25px;
+    color: #CD32A0;
+}
+#Container  p{
+    font-size: 20px;
+}
+.arrow_btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arrow_btn i{
+    font-size: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+    color: #CD32A0;
+    opacity: 0.6;
+}
+.arrow_btn i:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+#btn{
+    padding: 5px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 3px solid #CD32A0;
+    color: #CD32A0;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #CD32A0;
+    color: black;
+    transition: 0.5s;
+}

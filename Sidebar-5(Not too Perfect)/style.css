@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 300px;
+    border: 2px solid black;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.nav #first .cross{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+.nav #first .logo{
+    margin: 30px 0px;
+}
+.nav #first .logo h1{
+    font-size: 30px;
+}
+
+.nav #first .logo h1 span{
+    color: #66a3ff;
+}
+.nav #first #nav-btn{
+    display: block;
+
+}
+.nav #first #nav-btn li,a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px 10px;
+    
+}
+.nav #first #nav-btn li a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.nav #first #nav-btn li a:hover{
+    
+    background-color: #66a3ff;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav #first #nav-btn li a:focus{
+    background-color: #66a3ff;
+    color: black;
+    transition: 0.6s;
+}
+
+
+#hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 30px 30px;
+    
+}
+#hamburger .bar{
+    width:30px;
+    height: 5px;
+    margin: 2px 0px;
+    border-radius: 50px;
+    background-color: #66a3ff;
+    
+}
+nav.active{
+    display: flex;
+}

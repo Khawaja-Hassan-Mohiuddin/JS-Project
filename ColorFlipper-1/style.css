@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* FOR THE NAV BAR STYLING */
+#NavBar {
+  height: 60px;
+  box-shadow: -16px -6px 16px 6px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#NavBar .Container li,
+a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 0px 10px;
+  font-size: 20px;
+  color: black;
+ 
+}
+
+#NavBar .Container a:hover {
+  font-size: 30px;
+}
+
+/* ------------FOR THE NAV BAR STYLING-------------------- */
+
+/* FOR THE CENTER TO DISPLAY COLOR NAME */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.main div {
+  border: 5px solid rgb(61, 58, 58);
+  background-color: #fff;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 5px 0px 0px rgb(61, 58, 58);
+}
+
+@media only screen and (max-width: 500px) {
+  .main div {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main div .Color-Name {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  #NavBar .Container a:hover {
+    font-size: 10px;
+  }
+  #NavBar .Container a:hover {
+    font-size: 15px;
+  }
+  #btn {
+    margin: 10px;
+    padding: 2px 5px;
+  }
+}
+
+.Color-Name {
+  font-size: 40px;
+}
+
+#btn {
+  margin: 30px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 5px solid rgb(61, 58, 58);
+  border-radius: 20px;
+  background-color: #fff;
+  font-weight: bolder;
+  box-shadow: 0px 5px 0px 0px rgb(61, 58, 58);
+}
+
+#btn:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* ------------FOR THE CENTER TO DISPLAY COLOR NAME------------ */
